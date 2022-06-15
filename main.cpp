@@ -3,6 +3,7 @@
 #include "tCounter.h"
 
 int main() {
+    // edit
     std::string inputStr;
     std::getline(std::cin, inputStr);
     auto [tCnt, tWithoutECnt] = tCount(inputStr);
